@@ -39,5 +39,7 @@ request.get({
         xlsx.utils.book_append_sheet(newWB, newWS, "reviews_ios_all")//workbook name as param
 
         xlsx.writeFile(newWB, "reviews_ios.xlsx")//file name as param
+
+        console.log('Finish download reviews IOS Gomi Mall App')
     }
 });
